@@ -1,14 +1,14 @@
 " =============================================================================
-" File:        zazen.vim
+" File:        zendo.vim
 " Description: Vim color scheme file
-" Maintainer:  Zoltan Dezso
+" Maintainer:  Liam Campbell
 " =============================================================================
 set background=dark
 highlight clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "zazen"
+let colors_name = "zendo"
 
 hi Normal       guifg=#cccccc          guibg=#000000   gui=NONE
 hi CursorLine   guifg=NONE             guibg=#555555   gui=NONE
@@ -20,7 +20,7 @@ hi String       guifg=#838383          guibg=NONE      gui=NONE
 hi Type         guifg=#eeeeee          guibg=NONE      gui=bold
 hi Conditional  guifg=#787878          guibg=NONE      gui=bold
 hi Todo         guifg=#ff0000          guibg=#220000   gui=underline
-hi Comment      guifg=#777777          guibg=NONE      gui=NONE
+hi Comment      guifg=#555555          guibg=NONE      gui=italic
 hi PmenuSel     guifg=#000000          guibg=#a9a9aa   gui=bold
 hi Special      guifg=#868585          guibg=NONE      gui=NONE
 hi Identifier   guifg=#ffffff          guibg=NONE      gui=bold
@@ -31,7 +31,7 @@ hi Constant     guifg=#838383          guibg=#222222   gui=bold
 hi Delimiter    guifg=#838383          guibg=NONE      gui=NONE
 
 hi Visual       guifg=#ffffff          guibg=#515151   gui=NONE
-hi ColorColumn  guifg=NONE             guibg=#222222
+hi ColorColumn  guifg=NONE             guibg=#111111
 hi Cursor       guifg=bg               guibg=fg        gui=NONE
 hi CursorIM     guifg=bg               guibg=fg        gui=NONE
 hi lCursor      guifg=bg               guibg=fg        gui=NONE
@@ -53,12 +53,12 @@ hi ModeMsg      guifg=#ffffff          guibg=#767676   gui=bold
 hi MoreMsg      guifg=#7c7c7c          guibg=bg        gui=bold
 hi NonText      guifg=#7e7e7e          guibg=bg        gui=bold
 
-hi Pmenu        guifg=#656565          guibg=#3f3f3f   gui=NONE
-hi PmenuSbar    guifg=fg               guibg=#5d5d5d   gui=NONE
-hi PmenuThumb   guifg=fg               guibg=#777777   gui=NONE
+hi Pmenu        guifg=fg               guibg=#3f3f3f   gui=NONE
+hi PmenuSbar    guifg=fg               guibg=#3f3f3f   gui=NONE
+hi PmenuThumb   guifg=fg               guibg=#3f3f3f   gui=NONE
 
 hi Question     guifg=#454545          guibg=bg        gui=bold
-hi SignColumn   guifg=#ffffff          guibg=#181818   gui=NONE
+hi SignColumn   guifg=#ffffff          guibg=bg        gui=NONE
 
 hi SpecialKey   guifg=#454545          guibg=#000000   gui=NONE
 
@@ -102,7 +102,7 @@ if &t_Co > 255
    hi  Type               ctermfg=255        ctermbg=NONE       cterm=bold
    hi  Conditional        ctermfg=243        ctermbg=NONE       cterm=bold
    hi  Todo               ctermfg=9          ctermbg=NONE       cterm=underline
-   hi  Comment            ctermfg=243        ctermbg=NONE       cterm=NONE
+   hi  Comment            ctermfg=243        ctermbg=NONE       cterm=italic
    hi  PmenuSel           ctermfg=0          ctermbg=248        cterm=bold
    hi  Special            ctermfg=244        ctermbg=NONE       cterm=NONE
    hi  Identifier         ctermfg=15         ctermbg=NONE       cterm=bold
@@ -136,8 +136,8 @@ if &t_Co > 255
    hi  NonText            ctermfg=244        ctermbg=bg         cterm=bold
 
    hi  Pmenu              ctermfg=242        ctermbg=237        cterm=NONE
-   hi  PmenuSbar          ctermfg=fg         ctermbg=241        cterm=NONE
-   hi  PmenuThumb         ctermfg=fg         ctermbg=243        cterm=NONE
+   hi  PmenuSbar          ctermfg=fg         ctermbg=240        cterm=NONE
+   hi  PmenuThumb         ctermfg=fg         ctermbg=240        cterm=NONE
 
    hi  Question           ctermfg=238        ctermbg=bg         cterm=bold
    hi  SignColumn         ctermfg=15         ctermbg=233        cterm=NONE
