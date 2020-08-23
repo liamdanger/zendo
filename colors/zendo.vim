@@ -90,6 +90,21 @@ hi qfFileName       guifg=#6a6a6a      guibg=NONE      gui=italic
 hi qfLineNr         guifg=fg           guibg=NONE      gui=NONE
 hi qfError          guifg=fg           guibg=#000000   gui=undercurl
 
+" -----------------------------------------------------------------------------
+" vim-clap
+hi ClapSelectedSign     guifg=#e0e0e0
+hi ClapMatches          guifg=#feef6d
+hi ClapDisplay          guifg=fg           guibg=#1a1a1a
+hi ClapPreview          guifg=fg           guibg=#1a1a1a
+hi ClapCurrentSelection guifg=#e0e0e0      guibg=#1a1a1a gui=bold
+
+hi! link ClapCurrentSelectionSign ClapSelectedSign
+hi! link ClapFuzzyMatches ClapMatches
+hi! link ClapProviderAbout ClapDisplay
+hi! link ClapProviderColon Type
+hi! link ClapProviderId Type
+
+" Very Neglected:
 " 256-color Terminal support
 if &t_Co > 255
    hi  Normal             ctermfg=251        ctermbg=0          cterm=NONE
