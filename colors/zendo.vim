@@ -21,7 +21,6 @@ hi Type         guifg=#e0e0e0          guibg=NONE      gui=NONE
 hi Conditional  guifg=#aaaaaa          guibg=NONE      gui=italic
 hi Todo         guifg=#ff7272          guibg=#220000   gui=undercurl
 hi Comment      guifg=#777777          guibg=NONE      gui=italic
-hi PmenuSel     guifg=#000000          guibg=#feef6d   gui=bold
 hi Special      guifg=#999999          guibg=NONE      gui=NONE
 hi Identifier   guifg=#fafafa          guibg=NONE      gui=bold
 hi Keyword      guifg=#aaaaaa          guibg=NONE      gui=bold
@@ -49,13 +48,14 @@ hi Folded       guifg=#828282          guibg=#212121   gui=italic
 hi IncSearch    guifg=#000000          guibg=#adadad   gui=NONE
 hi Search       guifg=#000000          guibg=#c5c3c3   gui=NONE
 hi MatchParen   guifg=#feef6d          guibg=bg        gui=bold
-hi ModeMsg      guifg=#ffffff          guibg=#767676   gui=bold
+hi ModeMsg      guifg=#ffffff          guibg=bg        gui=bold
 hi MoreMsg      guifg=#7c7c7c          guibg=bg        gui=bold
 hi NonText      guifg=#7e7e7e          guibg=bg        gui=bold
 
-hi Pmenu        guifg=fg               guibg=#3f3f3f   gui=NONE
-hi PmenuSbar    guifg=fg               guibg=#3f3f3f   gui=NONE
-hi PmenuThumb   guifg=fg               guibg=#3f3f3f   gui=NONE
+hi Pmenu        guifg=fg               guibg=#313131   gui=NONE
+hi PmenuSbar    guifg=fg               guibg=#313131   gui=NONE
+hi PmenuThumb   guifg=fg               guibg=#313131   gui=NONE
+hi PmenuSel     guifg=#ffffff          guibg=#444444   gui=bold
 
 hi Question     guifg=#454545          guibg=bg        gui=bold
 hi SignColumn   guifg=#ffffff          guibg=bg        gui=NONE
@@ -96,7 +96,7 @@ hi ClapSelectedSign     guifg=#e0e0e0
 hi ClapMatches          guifg=#feef6d
 hi ClapDisplay          guifg=fg           guibg=#1a1a1a
 hi ClapPreview          guifg=fg           guibg=#1a1a1a
-hi ClapCurrentSelection guifg=#e0e0e0      guibg=#1a1a1a gui=bold
+hi ClapCurrentSelection guifg=#ffffff      guibg=#2c2c2c gui=bold
 
 hi! link ClapCurrentSelectionSign ClapSelectedSign
 hi! link ClapFuzzyMatches ClapMatches

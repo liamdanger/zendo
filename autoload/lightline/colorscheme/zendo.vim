@@ -5,7 +5,7 @@
 " =============================================================================
 
 " Basics:
-let s:foreground = [ '#aaaaaa', 253 ]
+let s:foreground = [ '#cccccc', 253 ]
 let s:background = [ '#222222', 0 ]
 
 let s:error = [ '#fa2929', 9 ]
