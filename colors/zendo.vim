@@ -10,36 +10,36 @@ if exists("syntax_on")
 endif
 let colors_name = "zendo"
 
-hi Normal       guifg=#cccccc          guibg=#000000   gui=NONE
-hi CursorLine   guifg=NONE             guibg=#555555   gui=NONE
+hi Normal       guifg=#e0e0e0          guibg=#000000   gui=NONE
+hi CursorLine   guifg=NONE             guibg=#333333   gui=NONE
 hi CursorColumn guifg=NONE             guibg=#1a1a1a   gui=NONE
-hi LineNr       guifg=#555555          guibg=NONE      gui=NONE
-hi Statement    guifg=#a6a6a6          guibg=NONE      gui=bold
-hi Function     guifg=#eeeeee          guibg=NONE      gui=bold
-hi String       guifg=#838383          guibg=NONE      gui=NONE
-hi Type         guifg=#eeeeee          guibg=NONE      gui=bold
-hi Conditional  guifg=#787878          guibg=NONE      gui=bold
-hi Todo         guifg=#ff7272          guibg=#220000   gui=underline
-hi Comment      guifg=#555555          guibg=NONE      gui=italic
-hi PmenuSel     guifg=#000000          guibg=#a9a9aa   gui=bold
-hi Special      guifg=#868585          guibg=NONE      gui=NONE
-hi Identifier   guifg=#ffffff          guibg=NONE      gui=bold
-hi Keyword      guifg=#666666          guibg=NONE      gui=bold
-hi PreProc      guifg=#6b6b6b          guibg=NONE      gui=bold
+hi LineNr       guifg=#777777          guibg=NONE      gui=NONE
+hi Statement    guifg=#e0e0e0          guibg=NONE      gui=NONE
+hi Function     guifg=#efefef          guibg=NONE      gui=bold
+hi String       guifg=#aaaaaa          guibg=NONE      gui=NONE
+hi Type         guifg=#e0e0e0          guibg=NONE      gui=NONE
+hi Conditional  guifg=#aaaaaa          guibg=NONE      gui=italic
+hi Todo         guifg=#ff7272          guibg=#220000   gui=undercurl
+hi Comment      guifg=#777777          guibg=NONE      gui=italic
+hi PmenuSel     guifg=#000000          guibg=#feef6d   gui=bold
+hi Special      guifg=#999999          guibg=NONE      gui=NONE
+hi Identifier   guifg=#fafafa          guibg=NONE      gui=bold
+hi Keyword      guifg=#aaaaaa          guibg=NONE      gui=bold
+hi PreProc      guifg=#aaaaaa          guibg=NONE      gui=bold
 hi Include      guifg=#e0e0e0          guibg=NONE      gui=NONE
-hi Constant     guifg=#838383          guibg=#222222   gui=bold
-hi Delimiter    guifg=#838383          guibg=NONE      gui=NONE
+hi Constant     guifg=#999999          guibg=#222222   gui=bold
+hi Delimiter    guifg=#999999          guibg=NONE      gui=NONE
 
-hi Visual       guifg=#ffffff          guibg=#515151   gui=NONE
+hi Visual       guifg=#feef6d          guibg=#1a1a1a   gui=NONE
 hi ColorColumn  guifg=NONE             guibg=#090909
 hi Cursor       guifg=bg               guibg=fg        gui=NONE
 hi CursorIM     guifg=bg               guibg=fg        gui=NONE
 hi lCursor      guifg=bg               guibg=fg        gui=NONE
 
-hi DiffAdd      guifg=#00cc00          guibg=#002200   gui=NONE
+hi DiffAdd      guifg=#19bb09          guibg=#002200   gui=NONE
 hi DiffChange   guifg=#ff9955          guibg=#220000   gui=NONE
-hi DiffDelete   guifg=#ff0000          guibg=#220000   gui=NONE
-hi DiffText     guifg=#ff0000          guibg=#220000   gui=NONE
+hi DiffDelete   guifg=#fa2929          guibg=#220000   gui=NONE
+hi DiffText     guifg=#fa2929          guibg=#220000   gui=NONE
 
 hi Directory    guifg=#929292          guibg=bg        gui=NONE
 hi ErrorMsg     guifg=#6f6f6f          guibg=NONE      gui=NONE
@@ -48,7 +48,7 @@ hi Folded       guifg=#828282          guibg=#212121   gui=italic
 
 hi IncSearch    guifg=#000000          guibg=#adadad   gui=NONE
 hi Search       guifg=#000000          guibg=#c5c3c3   gui=NONE
-hi MatchParen   guifg=#000000          guibg=#a8a8a8   gui=bold
+hi MatchParen   guifg=#feef6d          guibg=bg        gui=bold
 hi ModeMsg      guifg=#ffffff          guibg=#767676   gui=bold
 hi MoreMsg      guifg=#7c7c7c          guibg=bg        gui=bold
 hi NonText      guifg=#7e7e7e          guibg=bg        gui=bold
@@ -73,11 +73,11 @@ hi TabLineFill  guifg=fg               guibg=bg        gui=reverse
 hi TabLineSel   guifg=fg               guibg=bg        gui=bold
 hi Title        guifg=#6d6d6d          guibg=bg        gui=bold
 hi VertSplit    guifg=#222222          guibg=#222222
-hi WarningMsg   guifg=#cfcfcf          guibg=#5b5b5b   gui=NONE
+hi WarningMsg   guifg=#cfcfcf          guibg=#3f3f3f   gui=NONE
 hi WildMenu     guifg=#000000          guibg=#828282   gui=NONE
 hi Boolean      guifg=#616060          guibg=NONE      gui=bold
 hi Ignore       guifg=bg               guibg=NONE      gui=NONE
-hi Error        guifg=#ff7272          guibg=NONE      gui=undercurl guisp=#ff0000
+hi Error        guifg=#ff7272          guibg=NONE      gui=undercurl guisp=#fa2929
 
 " -----------------------------------------------------------------------------
 " Taglist
