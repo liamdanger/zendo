@@ -46,8 +46,8 @@ hi ErrorMsg     guifg=#6f6f6f          guibg=NONE      gui=NONE
 hi FoldColumn   guifg=#555555          guibg=#414141   gui=bold
 hi Folded       guifg=#828282          guibg=#212121   gui=italic
 
-hi IncSearch    guifg=#000000          guibg=#adadad   gui=NONE
-hi Search       guifg=#000000          guibg=#c5c3c3   gui=NONE
+hi IncSearch    guifg=#000000          guibg=#95e6cb   gui=bold
+hi Search       guifg=#000000          guibg=#95e6cb   gui=bold
 hi MatchParen   guifg=#e6b450          guibg=bg        gui=bold
 hi ModeMsg      guifg=#ffffff          guibg=bg        gui=bold
 hi MoreMsg      guifg=#7c7c7c          guibg=bg        gui=bold
@@ -97,10 +97,10 @@ hi ClapSelectedSign     guifg=#e0e0e0
 hi ClapDisplay          guifg=fg           guibg=#1a1a1a
 hi ClapPreview          guifg=fg           guibg=#1a1a1a
 hi ClapCurrentSelection guifg=#ffffff      guibg=#2c2c2c gui=bold
-hi! ClapMatches         guifg=#feef6d
+hi ClapMatches          guifg=#e6b450      guibg=NONE
+hi ClapFuzzyMatches     guifg=#e6b450      guibg=NONE
 
 hi! link ClapCurrentSelectionSign ClapSelectedSign
-hi! link ClapFuzzyMatches ClapMatches
 hi! link ClapProviderAbout ClapDisplay
 hi! link ClapProviderColon Type
 hi! link ClapProviderId Type
