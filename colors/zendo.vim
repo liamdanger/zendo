@@ -28,14 +28,15 @@ hi PreProc      guifg=#aaaaaa          guibg=NONE      gui=bold
 hi Include      guifg=#e0e0e0          guibg=NONE      gui=NONE
 hi Constant     guifg=#999999          guibg=#222222   gui=bold
 hi Delimiter    guifg=#999999          guibg=NONE      gui=NONE
+hi EndOfBuffer  guifg=#555555          guibg=NONE      gui=italic
 
-hi Visual       guifg=#feef6d          guibg=#1a1a1a   gui=NONE
+hi Visual       guifg=#e6b450          guibg=#1a1a1a   gui=NONE
 hi ColorColumn  guifg=NONE             guibg=#090909
 hi Cursor       guifg=bg               guibg=fg        gui=NONE
 hi CursorIM     guifg=bg               guibg=fg        gui=NONE
 hi lCursor      guifg=bg               guibg=fg        gui=NONE
 
-hi DiffAdd      guifg=#19bb09          guibg=#002200   gui=NONE
+hi DiffAdd      guifg=#c2d94c          guibg=#002200   gui=NONE
 hi DiffChange   guifg=#ff9955          guibg=#220000   gui=NONE
 hi DiffDelete   guifg=#fa2929          guibg=#220000   gui=NONE
 hi DiffText     guifg=#fa2929          guibg=#220000   gui=NONE
@@ -47,7 +48,7 @@ hi Folded       guifg=#828282          guibg=#212121   gui=italic
 
 hi IncSearch    guifg=#000000          guibg=#adadad   gui=NONE
 hi Search       guifg=#000000          guibg=#c5c3c3   gui=NONE
-hi MatchParen   guifg=#feef6d          guibg=bg        gui=bold
+hi MatchParen   guifg=#e6b450          guibg=bg        gui=bold
 hi ModeMsg      guifg=#ffffff          guibg=bg        gui=bold
 hi MoreMsg      guifg=#7c7c7c          guibg=bg        gui=bold
 hi NonText      guifg=#7e7e7e          guibg=bg        gui=bold
@@ -57,10 +58,10 @@ hi PmenuSbar    guifg=fg               guibg=#313131   gui=NONE
 hi PmenuThumb   guifg=fg               guibg=#313131   gui=NONE
 hi PmenuSel     guifg=#ffffff          guibg=#444444   gui=bold
 
-hi Question     guifg=#454545          guibg=bg        gui=bold
+hi Question     guifg=#878787          guibg=bg        gui=bold
 hi SignColumn   guifg=#ffffff          guibg=bg        gui=NONE
 
-hi SpecialKey   guifg=#454545          guibg=#000000   gui=NONE
+hi SpecialKey   guifg=#878787          guibg=#000000   gui=NONE
 
 hi SpellBad     guisp=#ffffff          guibg=#000000   gui=undercurl    guisp=#ffc0c0
 hi SpellCap     guisp=#5d5d5d                          gui=undercurl
@@ -75,7 +76,7 @@ hi Title        guifg=#6d6d6d          guibg=bg        gui=bold
 hi VertSplit    guifg=#222222          guibg=#222222
 hi WarningMsg   guifg=#cfcfcf          guibg=#3f3f3f   gui=NONE
 hi WildMenu     guifg=#000000          guibg=#828282   gui=NONE
-hi Boolean      guifg=#616060          guibg=NONE      gui=bold
+hi Boolean      guifg=#999999          guibg=NONE      gui=bold
 hi Ignore       guifg=bg               guibg=NONE      gui=NONE
 hi Error        guifg=#ff7272          guibg=NONE      gui=undercurl guisp=#fa2929
 
@@ -84,7 +85,7 @@ hi Error        guifg=#ff7272          guibg=NONE      gui=undercurl guisp=#fa29
 hi MyTagListFileName guifg=#ffffff      guibg=#444444
 hi MyTagListTitle    guifg=#666666      guibg=bg        gui=bold
 
-hi VimError         guifg=#b6b6b6      guibg=#313131   gui=bold
+hi VimError         guifg=#b6b6b6      guibg=bg        gui=bold
 hi VimCommentTitle  guifg=#5c5c5c      guibg=bg        gui=bold,italic
 hi qfFileName       guifg=#6a6a6a      guibg=NONE      gui=italic
 hi qfLineNr         guifg=fg           guibg=NONE      gui=NONE
@@ -93,10 +94,10 @@ hi qfError          guifg=fg           guibg=#000000   gui=undercurl
 " -----------------------------------------------------------------------------
 " vim-clap
 hi ClapSelectedSign     guifg=#e0e0e0
-hi ClapMatches          guifg=#feef6d
 hi ClapDisplay          guifg=fg           guibg=#1a1a1a
 hi ClapPreview          guifg=fg           guibg=#1a1a1a
 hi ClapCurrentSelection guifg=#ffffff      guibg=#2c2c2c gui=bold
+hi! ClapMatches         guifg=#feef6d
 
 hi! link ClapCurrentSelectionSign ClapSelectedSign
 hi! link ClapFuzzyMatches ClapMatches
