@@ -1,21 +1,31 @@
-# <img src="assets/zen.svg?sanitize=true" width="24" height="24" alt="" /> Zendo
+# <img src="assets/zen.svg?sanitize=true" width="28" height="28" alt="" /> Zendo
 
-### syntax highlighting with situational color
+### monochrome syntax highlighting with situational color
 
-Zendo is a vim colorscheme that displays code monochromatically with situational highlights.
-Search, parenthesis matching, TODOs, and diffs are colorful because they warrant extra attention.
-Code has shades of gray and text formatting to mark syntax, but it's otherwise calm.
+Zendo is a vim colorscheme that displays code monochromatically with only situational color. Most
+text is in shades of gray, which makes highlights for searching, parenthesis matching, TODOs,
+errors, and diffs much more obvious. This approach isn't for everybody, but it is for me, and it
+might be for you.
 
-Zendo includes a [lightline theme](https://github.com/itchyny/lightline.vim) and some highlighting
-for [vim-clap](https://github.com/liuchengxu/vim-clap).
+Zendo is a fork of [zazen](https://github.com/zaki/zazen) with colors based on
+[ayu](https://github.com/ayu-theme/ayu-colors).
+
+Includes:
+* a [lightline](https://github.com/itchyny/lightline.vim) theme (also called `zendo`)
+* automatic highlighting for [vim-clap](https://github.com/liuchengxu/vim-clap)
+* matching [iterm colors](iterm/zendo.itermcolors) (must be installed separately)
 
 ## Installation
 
-```
+Add to your plugin manager of choice:
+
+```viml
 Plug 'liamdanger/zendo'
 ```
 
-```
+Enable the colorscheme in your `.vimrc`:
+
+```viml
 colorscheme zendo
 ```
 
