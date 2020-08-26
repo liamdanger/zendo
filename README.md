@@ -1,4 +1,4 @@
-# <img src="zen.svg?sanitize=true" width="24" height="24" alt="" /> Zendo
+# <img src="assets/zen.svg?sanitize=true" width="24" height="24" alt="" /> Zendo
 
 ### syntax highlighting with situational color
 
@@ -18,3 +18,7 @@ Plug 'liamdanger/zendo'
 ```
 colorscheme zendo
 ```
+
+## Screenshot
+
+<img src="assets/screenshot.png" />
