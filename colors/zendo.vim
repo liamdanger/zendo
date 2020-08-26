@@ -46,8 +46,8 @@ hi ErrorMsg     guifg=#6f6f6f          guibg=NONE      gui=NONE
 hi FoldColumn   guifg=#555555          guibg=#414141   gui=bold
 hi Folded       guifg=#828282          guibg=#212121   gui=italic
 
-hi IncSearch    guifg=#000000          guibg=#95e6cb   gui=bold
-hi Search       guifg=#000000          guibg=#95e6cb   gui=bold
+hi IncSearch    guifg=#59c2ff          guibg=NONE      gui=NONE
+hi Search       guifg=#59c2ff          guibg=NONE      gui=bold
 hi MatchParen   guifg=#e6b450          guibg=bg        gui=bold
 hi ModeMsg      guifg=#ffffff          guibg=bg        gui=bold
 hi MoreMsg      guifg=#7c7c7c          guibg=bg        gui=bold
